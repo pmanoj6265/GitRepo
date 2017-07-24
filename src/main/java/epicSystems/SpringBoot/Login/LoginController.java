@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class LoginController {
 
-	@RequestMapping("/users")
+	@RequestMapping("/Epicusers")
 	
 	public List<LoginModel> getAllusers() {
 		 
